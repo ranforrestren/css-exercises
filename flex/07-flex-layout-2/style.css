@@ -23,9 +23,23 @@ body {
   color: darkmagenta;
 }
 
+.container {
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 .card {
